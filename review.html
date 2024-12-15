@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="review-page">
+  <div class="container">
+    <h1>Share Your Review</h1>
+    <div class="rating">
+      <label>How was your experience?</label><br>
+      <input type="radio" name="rating" value="Excellent"> Excellent
+      <input type="radio" name="rating" value="Good"> Good
+      <input type="radio" name="rating" value="Average"> Average
+      <input type="radio" name="rating" value="Bad"> Bad
+    </div>
+    <div class="review-text">
+      <label for="review">Your Review:</label><br>
+      <textarea id="review" rows="4" cols="50" placeholder="Write your detailed review..."></textarea>
+    </div>
+    <button id="submit-review">Submit Review</button>
+    <button id="home-button" onclick="window.location.href='index.html'">Home</button>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
